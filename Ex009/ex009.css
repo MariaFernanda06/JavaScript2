@@ -1,0 +1,51 @@
+:root {
+    --cor-fundo: rgb(67, 67, 208);
+    --cor-branca: white;
+    --cor-preta: black;
+    --cor-verde: green;
+    --cor-vermelho: red;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+header {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
+
+section {
+    margin: 0 auto;
+    padding: 15px;
+    width: 300px;
+    background-color: var(--cor-branca);
+    box-shadow: 2px 2px 3px var(--cor-preta);
+    color: var(--cor-preta);
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 3px;
+}
+
+footer {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
+
+.aprovado {
+    color: var(--cor-verde);
+}
+
+.reprovado {
+    color: var(--cor-vermelho);
+}

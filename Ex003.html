@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex.003</title>
+</head>
+<body>
+    <h1>Somador de Números</h1>
+    <button onclick="BotaoSoma()">Clique para somar</button>
+    <p>Clique no botão acima para somar</p>
+
+    <script>
+        function BotaoSoma(){
+            var valor1 = prompt("Digite o primeiro numero")
+            var valor2 = prompt("Digite o segundo numero")
+            var soma = Number(valor1) + Number(valor2)
+            console.log(`A soma é: ${soma}`)
+        }
+    </script>
+</body>
+</html>

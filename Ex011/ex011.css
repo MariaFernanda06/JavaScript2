@@ -1,0 +1,58 @@
+:root {
+    --cor-fundo: rgb(67, 67, 208);
+    --cor-branca: white;
+    --cor-preta: black;
+    --cor-verde: green;
+    --cor-vermelho: red;
+    --cor-azul: blue;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+header {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
+
+section {
+    margin: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 300px;
+    background-color: var(--cor-branca);
+    box-shadow: 2px 2px 3px var(--cor-preta);
+    color: var(--cor-preta);
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 3px;
+}
+
+button {
+    margin: 10px;
+    padding: 3px;
+}
+
+footer {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
+
+.azul{
+    color: var(--cor-azul);
+}
+
+.verde {
+    color: var(--cor-verde);
+}
+
+.vermelho {
+    color: var(--cor-vermelho);
+}

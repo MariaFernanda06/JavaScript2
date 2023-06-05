@@ -1,0 +1,38 @@
+:root {
+    --cor-branca: white;
+    --cor-preta: black;
+}
+
+body {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 10%, rgba(33, 0, 255, 1) 90%);
+}
+
+header {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
+
+section {
+    margin: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 350px;
+    background-color: var(--cor-branca);
+    box-shadow: 2px 2px 3px var(--cor-preta);
+    color: var(--cor-preta);
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 3px;
+}
+
+footer {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}
